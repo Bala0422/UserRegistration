@@ -1,10 +1,8 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace Registration
+﻿namespace Registration
 {
     public class Program
     {
-        
+
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to User Registration ");
@@ -28,13 +26,11 @@ namespace Registration
 
 
             Console.WriteLine("\nThe Details Enterd are : \n");
-            Console.WriteLine("First Name: "+ register.firstName);
+            Console.WriteLine("First Name: " + register.firstName);
             Console.WriteLine("Last Name:  " + register.lastName);
-            Console.WriteLine("Email : "+ register.email);
-            Console.WriteLine("Mobile : "+ register.mobile);
-            Console.WriteLine("password : "+ register.password);
-
-            
+            Console.WriteLine("Email : " + register.email);
+            Console.WriteLine("Mobile : " + register.mobile);
+            Console.WriteLine("password : " + register.password);
 
 
         }
